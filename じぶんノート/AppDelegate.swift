@@ -11,12 +11,17 @@ import Photos
 import Fabric
 import Crashlytics
 import RealmSwift
-
+import NCMB
 
 @UIApplicationMain
 class AppDelegate: UIResponder, UIApplicationDelegate {
 
     var window: UIWindow?
+    
+    //ニフティのAPIキーの設定
+    let applicationkey = "7329d6755ddd38bc2b6c201ee4215cfd3d9f6b8ef52bd17a8b835ab85a27fd2a"
+    let clientkey = "b1e7bc40ef210f1e475f0e6045d2dd576c03614c6e3d0b7f4277b42383f4f3c9"
+    
 
     //取得した写真を入れる配列
     var photosAssets = [PHAsset]()
@@ -166,7 +171,28 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
         //self.window?.makeKeyAndVisible()
         
       
-    
+        //ニフティSDKの初期化
+        NCMB.setApplicationKey("7329d6755ddd38bc2b6c201ee4215cfd3d9f6b8ef52bd17a8b835ab85a27fd2a",clientKey:"b1e7bc40ef210f1e475f0e6045d2dd576c03614c6e3d0b7f4277b42383f4f3c9")
+        
+       
+        let post = NCMBObject(className: "Post")
+        post.setObject("about moble backend", forKey: "title")
+        
+        let comment1 = NCMBObject(className: "Comment")
+        comment1.setObject("ごめんね素直じゃなくって", forKey: "text")
+        comment1.save(nil)
+        
+        let comment2 = NCMBObject(className: "Comment")
+        comment2.setObject("ごと酢", forKey: "text")
+        comment2.save(nil)
+        
+        let reration = NCMBRelation(className: post,key: "commnets")
+        
+        reration.addObject(comment1)
+        reration.addObject(comment2)
+        
+        post.save(nil)
+        
         return true
     }
     
