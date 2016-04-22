@@ -51,6 +51,7 @@
 		594A5F971C365AF1002CB673 /* NoteDetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 594A5F961C365AF1002CB673 /* NoteDetailViewController.swift */; };
 		595E86CA1C5511A70048BEF5 /* SEManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 595E86C91C5511A70048BEF5 /* SEManager.swift */; };
 		595E86D21C55B3D10048BEF5 /* pastel color1.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 595E86D11C55B3D10048BEF5 /* pastel color1.mp3 */; };
+		599E12131CCA54DE00904B22 /* userRegisterViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 599E12121CCA54DE00904B22 /* userRegisterViewController.swift */; };
 		59A04D421C82D16000C75001 /* SystemConfiguration.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 59A04D411C82D16000C75001 /* SystemConfiguration.framework */; };
 		59A04D441C82D17200C75001 /* StoreKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 59A04D431C82D17200C75001 /* StoreKit.framework */; };
 		59A04D461C82D18000C75001 /* Security.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 59A04D451C82D18000C75001 /* Security.framework */; };
@@ -152,6 +153,7 @@
 		594A5F961C365AF1002CB673 /* NoteDetailViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NoteDetailViewController.swift; sourceTree = "<group>"; };
 		595E86C91C5511A70048BEF5 /* SEManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SEManager.swift; sourceTree = "<group>"; };
 		595E86D11C55B3D10048BEF5 /* pastel color1.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "pastel color1.mp3"; sourceTree = "<group>"; };
+		599E12121CCA54DE00904B22 /* userRegisterViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = userRegisterViewController.swift; sourceTree = "<group>"; };
 		59A04D411C82D16000C75001 /* SystemConfiguration.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SystemConfiguration.framework; path = System/Library/Frameworks/SystemConfiguration.framework; sourceTree = SDKROOT; };
 		59A04D431C82D17200C75001 /* StoreKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = StoreKit.framework; path = System/Library/Frameworks/StoreKit.framework; sourceTree = SDKROOT; };
 		59A04D451C82D18000C75001 /* Security.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Security.framework; path = System/Library/Frameworks/Security.framework; sourceTree = SDKROOT; };
@@ -300,6 +302,7 @@
 				593CF4A71CBBD4A800B6F4E1 /* AddReminderSwitchTableViewCell.swift */,
 				593CF4A91CBBD4C500B6F4E1 /* datePickerTableViewCell.swift */,
 				593CF4AB1CBBD6DF00B6F4E1 /* startButtonTableViewCell.swift */,
+				599E12121CCA54DE00904B22 /* userRegisterViewController.swift */,
 			);
 			name = firstLunch;
 			sourceTree = "<group>";
@@ -793,6 +796,7 @@
 				594A5F871C301E6C002CB673 /* timeLineViewController.swift in Sources */,
 				59E44BDA1C2111F7005AF7F3 /* CameraCollectionViewCell.swift in Sources */,
 				59E44BD81C211124005AF7F3 /* photosAlbumCollectionViewCell.swift in Sources */,
+				599E12131CCA54DE00904B22 /* userRegisterViewController.swift in Sources */,
 				590F367E1C5B3B610083537F /* ColorFromRGB.swift in Sources */,
 				59E44BD61C2110D7005AF7F3 /* PhotosAlbumViewController.swift in Sources */,
 				593E99991C663155005465D6 /* SettingViewController.swift in Sources */,

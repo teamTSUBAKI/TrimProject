@@ -1582,7 +1582,7 @@
                                 <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                                 <prototypes>
                                     <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" selectionStyle="default" indentationWidth="10" reuseIdentifier="switch" id="aL7-S8-D3O" customClass="AddReminderSwitchTableViewCell" customModule="TSUBAKI" customModuleProvider="target">
-                                        <rect key="frame" x="0.0" y="92" width="320" height="44"/>
+                                        <rect key="frame" x="0.0" y="28" width="320" height="44"/>
                                         <autoresizingMask key="autoresizingMask"/>
                                         <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="aL7-S8-D3O" id="6fd-TC-d0B">
                                             <rect key="frame" x="0.0" y="0.0" width="320" height="43"/>
@@ -1590,7 +1590,7 @@
                                         </tableViewCellContentView>
                                     </tableViewCell>
                                     <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" selectionStyle="default" indentationWidth="10" reuseIdentifier="datePicker" rowHeight="187" id="J78-1q-l8n" customClass="datePickerTableViewCell" customModule="TSUBAKI" customModuleProvider="target">
-                                        <rect key="frame" x="0.0" y="136" width="320" height="187"/>
+                                        <rect key="frame" x="0.0" y="72" width="320" height="187"/>
                                         <autoresizingMask key="autoresizingMask"/>
                                         <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="J78-1q-l8n" id="VQh-0B-8Lq">
                                             <rect key="frame" x="0.0" y="0.0" width="320" height="186"/>
@@ -1615,7 +1615,7 @@
                                         </connections>
                                     </tableViewCell>
                                     <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" selectionStyle="default" indentationWidth="10" reuseIdentifier="theStart" id="jcg-Jv-g0C" customClass="startButtonTableViewCell" customModule="TSUBAKI" customModuleProvider="target">
-                                        <rect key="frame" x="0.0" y="323" width="320" height="44"/>
+                                        <rect key="frame" x="0.0" y="259" width="320" height="44"/>
                                         <autoresizingMask key="autoresizingMask"/>
                                         <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="jcg-Jv-g0C" id="You-Eb-Sc5">
                                             <rect key="frame" x="0.0" y="0.0" width="320" height="43"/>
@@ -1662,7 +1662,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="S4Z-Sd-DNl" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="-128" y="989"/>
+            <point key="canvasLocation" x="160" y="1130"/>
         </scene>
         <!--Navigation Controller-->
         <scene sceneID="teu-PY-8ER">
@@ -1714,12 +1714,32 @@
                     </navigationBar>
                     <nil name="viewControllers"/>
                     <connections>
-                        <segue destination="W3k-jC-HKc" kind="relationship" relationship="rootViewController" id="2PJ-sf-HLN"/>
+                        <segue destination="LwP-3g-Ze7" kind="relationship" relationship="rootViewController" id="jdt-On-c6T"/>
                     </connections>
                 </navigationController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="Ft6-wH-TnL" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="-531" y="989"/>
+        </scene>
+        <!--User Register View Controller-->
+        <scene sceneID="MgU-Mo-QAZ">
+            <objects>
+                <viewController id="LwP-3g-Ze7" customClass="userRegisterViewController" customModule="TSUBAKI" customModuleProvider="target" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="zSP-86-Alj"/>
+                        <viewControllerLayoutGuide type="bottom" id="IsI-NV-BrX"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="p6y-tM-8eE">
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="480"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                    </view>
+                    <navigationItem key="navigationItem" id="bM1-XJ-UbZ"/>
+                    <simulatedScreenMetrics key="simulatedDestinationMetrics"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="Wqt-mp-HQ1" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-182" y="1109"/>
         </scene>
     </scenes>
     <resources>

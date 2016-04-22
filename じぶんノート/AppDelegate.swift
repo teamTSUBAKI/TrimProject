@@ -11,12 +11,19 @@ import Photos
 import Fabric
 import Crashlytics
 import RealmSwift
+import NCMB
 
 
 @UIApplicationMain
 class AppDelegate: UIResponder, UIApplicationDelegate {
 
     var window: UIWindow?
+    
+    let applicationKey = "7329d6755ddd38bc2b6c201ee4215cfd3d9f6b8ef52bd17a8b835ab85a27fd2a"
+    let clientKey = "b1e7bc40ef210f1e475f0e6045d2dd576c03614c6e3d0b7f4277b42383f4f3c9"
+    
+    
+    
 
     //取得した写真を入れる配列
     var photosAssets = [PHAsset]()
@@ -93,6 +100,9 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
     //初回起動時に呼ばれる
     func application(application: UIApplication, didFinishLaunchingWithOptions launchOptions: [NSObject: AnyObject]?) -> Bool {
         // Override point for customization after application launch.
+        
+        //ニフティクラウドの初期化
+        NCMB.setApplicationKey(applicationKey, clientKey: clientKey)
         
         if let options = launchOptions{
             
