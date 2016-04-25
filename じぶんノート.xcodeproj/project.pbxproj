@@ -52,6 +52,7 @@
 		595E86CA1C5511A70048BEF5 /* SEManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 595E86C91C5511A70048BEF5 /* SEManager.swift */; };
 		595E86D21C55B3D10048BEF5 /* pastel color1.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 595E86D11C55B3D10048BEF5 /* pastel color1.mp3 */; };
 		599E12131CCA54DE00904B22 /* userRegisterViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 599E12121CCA54DE00904B22 /* userRegisterViewController.swift */; };
+		599E12151CCDB77100904B22 /* userRegisterTextViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 599E12141CCDB77000904B22 /* userRegisterTextViewController.swift */; };
 		59A04D421C82D16000C75001 /* SystemConfiguration.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 59A04D411C82D16000C75001 /* SystemConfiguration.framework */; };
 		59A04D441C82D17200C75001 /* StoreKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 59A04D431C82D17200C75001 /* StoreKit.framework */; };
 		59A04D461C82D18000C75001 /* Security.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 59A04D451C82D18000C75001 /* Security.framework */; };
@@ -154,6 +155,7 @@
 		595E86C91C5511A70048BEF5 /* SEManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SEManager.swift; sourceTree = "<group>"; };
 		595E86D11C55B3D10048BEF5 /* pastel color1.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "pastel color1.mp3"; sourceTree = "<group>"; };
 		599E12121CCA54DE00904B22 /* userRegisterViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = userRegisterViewController.swift; sourceTree = "<group>"; };
+		599E12141CCDB77000904B22 /* userRegisterTextViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = userRegisterTextViewController.swift; sourceTree = "<group>"; };
 		59A04D411C82D16000C75001 /* SystemConfiguration.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SystemConfiguration.framework; path = System/Library/Frameworks/SystemConfiguration.framework; sourceTree = SDKROOT; };
 		59A04D431C82D17200C75001 /* StoreKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = StoreKit.framework; path = System/Library/Frameworks/StoreKit.framework; sourceTree = SDKROOT; };
 		59A04D451C82D18000C75001 /* Security.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Security.framework; path = System/Library/Frameworks/Security.framework; sourceTree = SDKROOT; };
@@ -303,6 +305,7 @@
 				593CF4A91CBBD4C500B6F4E1 /* datePickerTableViewCell.swift */,
 				593CF4AB1CBBD6DF00B6F4E1 /* startButtonTableViewCell.swift */,
 				599E12121CCA54DE00904B22 /* userRegisterViewController.swift */,
+				599E12141CCDB77000904B22 /* userRegisterTextViewController.swift */,
 			);
 			name = firstLunch;
 			sourceTree = "<group>";
@@ -792,6 +795,7 @@
 				59D7EACD1CAA4E2F001DE841 /* albumNavigationViewController.swift in Sources */,
 				590554341CB8FD13009E6EE2 /* ReminderDatePickerViewController.swift in Sources */,
 				592D2B5C1CA1136C0030AFD3 /* allAlbum.swift in Sources */,
+				599E12151CCDB77100904B22 /* userRegisterTextViewController.swift in Sources */,
 				592302D31C4733DC00558322 /* CalendarViewController.swift in Sources */,
 				594A5F871C301E6C002CB673 /* timeLineViewController.swift in Sources */,
 				59E44BDA1C2111F7005AF7F3 /* CameraCollectionViewCell.swift in Sources */,

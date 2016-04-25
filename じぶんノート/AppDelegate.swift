@@ -96,6 +96,10 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
     var nowYearsForCal:Int!
     var nowMonthsForCal:Int!
     
+    
+    //最初のユーザー登録で目標を一時的に入れる
+    var myGoal:String!
+    
 
     //初回起動時に呼ばれる
     func application(application: UIApplication, didFinishLaunchingWithOptions launchOptions: [NSObject: AnyObject]?) -> Bool {
