@@ -122,7 +122,7 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
         //realmのマイグレーション
         let config = Realm.Configuration(
         
-            schemaVersion:1,
+            schemaVersion:2,
             
             migrationBlock:{migration,oldShemaVersion in
             

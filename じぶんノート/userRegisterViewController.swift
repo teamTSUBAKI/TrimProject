@@ -7,6 +7,7 @@
 //
 
 import UIKit
+import RealmSwift
 
 class userRegisterViewController: UIViewController,UIActionSheetDelegate,UINavigationControllerDelegate,UIImagePickerControllerDelegate,UITextFieldDelegate,UITextViewDelegate,UIPickerViewDelegate,UIPickerViewDataSource {
 
@@ -348,8 +349,25 @@ class userRegisterViewController: UIViewController,UIActionSheetDelegate,UINavig
     
     @IBAction func doneButton(sender: AnyObject) {
         
-        //performSegueWithIdentifier("toReminder", sender: nil)
+        //realmに保存
+        saveToRealm()
+        
     }
+    
+    func saveToRealm(){
+        
+        let realm = try!Realm()
+        let user = User()
+        
+        user.id = 1
+        user.createDate = NSDate()
+        user.userName = usernameTextField.text
+        
+        user.myGoal = myGorlTextView.text
+        
+        
+    }
+    
     @IBAction func myGoalButtonTaped(sender: AnyObject) {
         
         let textViewController:userRegisterTextViewController = storyboard?.instantiateViewControllerWithIdentifier("userRegisterTextView") as! userRegisterTextViewController
